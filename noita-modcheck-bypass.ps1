@@ -2,7 +2,7 @@
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
 
-$findPattern    = "76 11 e8 ?? ?? ?? ?? a1 ?? ?? ff 00 c6 80 20 01 00 00 01"
+$findPattern    = "76 11 e8 ?? ?? ?? ?? a1 ?? ?? ?? ?? c6 80 20 01 00 00 01"
 $replacePattern = "76 11 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90 90"
 
 function Get-RegistryValueSilently {
